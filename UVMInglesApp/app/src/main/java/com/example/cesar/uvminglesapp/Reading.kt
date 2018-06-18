@@ -1,5 +1,6 @@
-package com.example.ruth.proyecto
+package com.example.cesar.uvminglesapp
 
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
@@ -12,7 +13,7 @@ class Reading : AppCompatActivity() {
 
     var respuesta: String = ""
     var contador = 0
-    var tema = "technical"
+    var tema = ""
     var opciones: List<Int> = listOf()
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,8 +23,8 @@ class Reading : AppCompatActivity() {
         var numeros: List<Int> = listOf(0,1,2,3,4,5)
         opciones = numeros.shuffled().take(3)
 
-        //val bundle = intent.extras
-        //val tema = bundle.getString("subject")
+        val bundle = intent.extras
+        tema = bundle.getString("subject")
         temaSelect()
         //img.setImageResource(R.mipmap.)
         Log.wtf("opciones", opciones.toString())
@@ -42,7 +43,9 @@ class Reading : AppCompatActivity() {
         }
 
         bt1.setOnClickListener {
-            finish()
+            val cambio = Intent(this,Menu2::class.java)
+            cambio.putExtra("subject",tema)
+            startActivity(cambio)
         }
 
     }
@@ -68,7 +71,7 @@ class Reading : AppCompatActivity() {
 
     fun temaSelect(){
         when(tema){
-            "technical" -> { respuesta = technical(opciones.elementAt(contador)) }
+            "technicalSupport" -> { respuesta = technical(opciones.elementAt(contador)) }
             "programming" -> { respuesta = programming(opciones.elementAt(contador)) }
             "networking" -> { respuesta = networking(opciones.elementAt(contador)) }
         }

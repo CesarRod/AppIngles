@@ -31,7 +31,8 @@
             android:name=".Concepts"
             android:label="Concepts"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Listening"></activity>
+        <activity android:name=".Listening" />
+        <activity android:name=".Reading"></activity>
     </application>
 
 </manifest>
