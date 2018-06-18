@@ -1,0 +1,173 @@
+
+{
+  "programming": {
+    "image1": {
+      "file": "imagen1.jpg",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "image2": {
+      "file": "imagen2.jpg",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "image3": {
+      "file": "imagen3.jpg",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "image4": {
+      "file": "imagen4.jpg",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "image5": {
+      "file": "imagen5.jpg",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "image6": {
+      "file": "imagen6.jpg",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    }
+  },
+  "support": {
+    "image1": {
+      "file": "imagen1.jpg",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "image2": {
+      "file": "imagen2.jpg",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "image3": {
+      "file": "imagen3.jpg",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "image4": {
+      "file": "imagen4.jpg",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "image5": {
+      "file": "imagen5.jpg",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "image6": {
+      "file": "imagen6.jpg",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    }
+  },
+  "networking": {
+    "image1": {
+      "file": "imagen1.jpg",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "image2": {
+      "file": "imagen2.jpg",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "image3": {
+      "file": "imagen3.jpg",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "image4": {
+      "file": "imagen4.jpg",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "image5": {
+      "file": "imagen5.jpg",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "image6": {
+      "file": "imagen6.jpg",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    }
+  }
+
+
+}
