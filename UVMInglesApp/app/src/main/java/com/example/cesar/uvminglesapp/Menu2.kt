@@ -32,7 +32,11 @@ class Menu2 : AppCompatActivity() {
         button6.setOnClickListener{
 
             var intent1 = Intent(this, Reading::class.java)
+<<<<<<< HEAD
+            intent1.putExtra("subject", subject)
+=======
             intent1.putExtra("subject",subject)
+>>>>>>> f35f40df1b24220adc509753d03c3545dbeb1651
             startActivity(intent1)
             finish()
             //Toast.makeText(this,"Aun no funciona esta parte", Toast.LENGTH_LONG).show()

@@ -54,7 +54,7 @@ class Concepts : AppCompatActivity() {
                     val optionsList = images[image] as ArrayList<String>
                     val answer = answersList[index].first
                     currentAnswer = answers[answer].toString()
-                    indice.text = currentAnswer
+//                    indice.text = currentAnswer
 
                     conceptImage.setImageResource(image.toInt())
                     op1.text = optionsList[0]
@@ -96,7 +96,7 @@ class Concepts : AppCompatActivity() {
         val optionsList = images[image] as ArrayList<String>
         val answer = answersList[index].first
         currentAnswer = answers[answer].toString()
-        indice.text = currentAnswer
+        //indice.text = currentAnswer
         //Asi cambiamos de imagen
         conceptImage.setImageResource(image.toInt())
 
@@ -104,9 +104,5 @@ class Concepts : AppCompatActivity() {
         op2.text = optionsList[1]
         op3.text = optionsList[2]
         op4.text = optionsList[3]
-
-
-
-
     }
 }
