@@ -1,9 +1,11 @@
 package com.example.cesar.uvminglesapp
 
+import android.content.Intent
 import android.graphics.Color
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import android.view.View
 import android.widget.Button
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_concepts.*
@@ -18,6 +20,7 @@ class Concepts : AppCompatActivity() {
     private var images = emptyMap<String,Serializable>()
     private var index = 0
     private var currentAnswer= ""
+    var subject = ""
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -38,6 +41,12 @@ class Concepts : AppCompatActivity() {
         }
         op4.setOnClickListener{
             nextImage(op4)
+        }
+
+        OK.setOnClickListener {
+            val cambio = Intent(this,Menu2::class.java)
+            cambio.putExtra("subject",subject)
+            startActivity(cambio)
         }
     }
 
@@ -66,7 +75,8 @@ class Concepts : AppCompatActivity() {
                     op3.setBackgroundColor(resources.getColor(R.color.button_material_light))
                     op4.setBackgroundColor(resources.getColor(R.color.button_material_light))
                 } else {
-                    Toast.makeText(this, "Finished activity", Toast.LENGTH_SHORT).show()
+                    OK.visibility = View.VISIBLE
+                    //Toast.makeText(this, "Finished activity", Toast.LENGTH_SHORT).show()
                 }
             },1400)
 
@@ -79,7 +89,7 @@ class Concepts : AppCompatActivity() {
     }
     fun startGame(){
         var bundle = intent.extras
-        var subject = bundle.getString("subject")
+        subject = bundle.getString("subject")
         var setOfImages = emptyArray<Map<String,Serializable>>()
 
         when(subject){

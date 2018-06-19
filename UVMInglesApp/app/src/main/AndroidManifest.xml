@@ -31,13 +31,11 @@
             android:name=".Concepts"
             android:label="Concepts"
             android:theme="@style/AppTheme.NoActionBar" />
-<<<<<<< HEAD
+
         <activity android:name=".Listening"></activity>
 
-=======
-        <activity android:name=".Listening" />
         <activity android:name=".Reading"></activity>
->>>>>>> f35f40df1b24220adc509753d03c3545dbeb1651
+
     </application>
 
 </manifest>
