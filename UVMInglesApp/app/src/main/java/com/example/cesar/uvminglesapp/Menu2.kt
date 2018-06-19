@@ -39,6 +39,12 @@ class Menu2 : AppCompatActivity() {
 
         }
 
+        back.setOnClickListener {
+            var intent1 = Intent(this, Menu::class.java)
+            startActivity(intent1)
+            finish()
+        }
+
     }
 
 }

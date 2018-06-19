@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Menu2"
-    tools:layout_editor_absoluteY="81dp">
+    tools:layout_editor_absoluteY="25dp">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -21,18 +21,21 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@color/background" />
+        app:srcCompat="@android:color/black" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginBottom="13dp"
+        android:layout_marginBottom="11dp"
         android:layout_marginEnd="64dp"
         android:layout_marginLeft="64dp"
         android:layout_marginRight="64dp"
         android:layout_marginStart="64dp"
+        android:background="@android:color/holo_red_dark"
         android:text="Concepts"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/button5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -42,12 +45,15 @@
         android:id="@+id/button5"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginBottom="15dp"
+        android:layout_marginBottom="11dp"
         android:layout_marginEnd="65dp"
         android:layout_marginLeft="65dp"
         android:layout_marginRight="65dp"
         android:layout_marginStart="65dp"
+        android:background="@android:color/holo_red_dark"
         android:text="Listening"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/button6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -57,13 +63,16 @@
         android:id="@+id/button6"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginBottom="86dp"
+        android:layout_marginBottom="36dp"
         android:layout_marginEnd="65dp"
         android:layout_marginLeft="65dp"
         android:layout_marginRight="65dp"
         android:layout_marginStart="65dp"
+        android:background="@android:color/holo_red_dark"
         android:text="Writing"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/back"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button5" />
@@ -72,15 +81,26 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="170dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:text="Select activity..."
+        android:layout_marginBottom="93dp"
+        android:layout_marginTop="70dp"
+        android:text="Select an activity"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/background_light"
         app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="34dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6"
+        app:srcCompat="?attr/homeAsUpIndicator" />
 
 </android.support.constraint.ConstraintLayout>
