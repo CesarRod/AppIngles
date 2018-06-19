@@ -7,7 +7,7 @@ class ProgrammingAudios{
     private var mapImages = mapOf(
             R.raw.prog1java.toString() to arrayListOf("Jave","Jawi","Jama","Java"),
             R.raw.prog2com.toString() to arrayListOf("Algorithm","Algorit","Argotim","Algorhirthm"),
-            R.raw.prog3poo.toString() to arrayListOf("Orned Oject Process","Orientes Object Program","Oriented Object Programming","Orience Object Programming"),
+            R.raw.prog3poo.toString() to arrayListOf("Arduino","Python","C","Pascal"),
             R.raw.prog4sw.toString() to arrayListOf("Software","Soware","Somwhere","Sofwar"),
             R.raw.prog5javascript.toString() to arrayListOf("John Script","JavaScript","TypeScript","Emma Script"),
             R.raw.prog6cpp.toString() to arrayListOf("C less plus","C#","C plus plus","F"))
@@ -23,7 +23,7 @@ class ProgrammingAudios{
     private var mapAnswers = mapOf(
             R.raw.prog1java.toString() to "Java",
             R.raw.prog2com.toString() to "Algorithm",
-            R.raw.prog3poo.toString() to "Oriented Object Programming",
+            R.raw.prog3poo.toString() to "Python",
             R.raw.prog4sw.toString() to "Software",
             R.raw.prog5javascript.toString() to "JavaScript",
             R.raw.prog6cpp.toString() to "C plus plus")
