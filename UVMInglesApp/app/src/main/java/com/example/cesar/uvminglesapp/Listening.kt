@@ -48,7 +48,7 @@ class Listening : AppCompatActivity() {
             "support" -> {setOfAudios = SupportAudio().getImages()}
         }
 
-        //audios = setOfAudios
+        audios = setOfAudios
     }
 
 }
