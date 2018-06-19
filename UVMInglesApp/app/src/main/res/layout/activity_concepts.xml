@@ -47,7 +47,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="9dp"
-        app:layout_constraintBottom_toTopOf="@+id/OK"
+        app:layout_constraintBottom_toTopOf="@+id/Ok2"
         app:layout_constraintEnd_toEndOf="@+id/op4"
         app:layout_constraintStart_toStartOf="@+id/op4"
         app:layout_constraintTop_toBottomOf="@+id/op2" />
@@ -60,12 +60,12 @@
         android:layout_marginLeft="48dp"
         android:layout_marginRight="79dp"
         android:layout_marginStart="48dp"
-        app:layout_constraintEnd_toStartOf="@+id/OK"
+        app:layout_constraintEnd_toStartOf="@+id/Ok2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/op3" />
 
     <Button
-        android:id="@+id/OK"
+        android:id="@+id/Ok2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="35dp"

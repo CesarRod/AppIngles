@@ -1,5 +1,6 @@
 package com.example.cesar.uvminglesapp
 
+import android.content.Intent
 import android.graphics.Color
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
@@ -7,8 +8,8 @@ import android.media.MediaPlayer
 import android.os.Handler
 import android.widget.Button
 import android.widget.Toast
+import android.view.View
 import kotlinx.android.synthetic.main.activity_listening.*
-import kotlinx.android.synthetic.main.content_menu.*
 import java.io.Serializable
 
 class Listening : AppCompatActivity() {
@@ -43,10 +44,15 @@ class Listening : AppCompatActivity() {
         option4.setOnClickListener{
             nextAudio(option4)
         }
+        Ok2.setOnClickListener {
+            val cambio = Intent(this,Menu2::class.java)
+            cambio.putExtra("subject",subject)
+            startActivity(cambio)
+        }
     }
     fun startGame(){
         var bundle = intent.extras
-        var subject = bundle.getString("subject")
+        subject = bundle.getString("subject")
         var setOfAudios = emptyArray<Map<String,Serializable>>()
 
         when(subject){
@@ -96,7 +102,7 @@ class Listening : AppCompatActivity() {
                     option3.setBackgroundColor(resources.getColor(R.color.button_material_light))
                     option4.setBackgroundColor(resources.getColor(R.color.button_material_light))
                 } else {
-                    //OK.visibility = View.VISIBLE
+                    Ok2.visibility = View.VISIBLE
 
                 }
             },1300)

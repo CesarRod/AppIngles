@@ -4,8 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#c4c1c1"
     tools:context=".Listening"
     tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/Ok2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@android:color/black"
+        android:text="OK"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/option4" />
 
     <ImageView
         android:id="@+id/audioClicker"
@@ -24,38 +41,51 @@
         android:layout_width="188dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="13dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginStart="43dp"
         app:layout_constraintBottom_toTopOf="@+id/option2"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/audioClicker" />
 
     <Button
         android:id="@+id/option2"
-        android:layout_width="186dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="7dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginStart="1dp"
         app:layout_constraintBottom_toTopOf="@+id/option3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/option1"
+        app:layout_constraintStart_toStartOf="@+id/option1"
         app:layout_constraintTop_toBottomOf="@+id/option1" />
 
     <Button
         android:id="@+id/option3"
-        android:layout_width="184dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="9dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginStart="1dp"
         app:layout_constraintBottom_toTopOf="@+id/option4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/option2"
+        app:layout_constraintStart_toStartOf="@+id/option2"
         app:layout_constraintTop_toBottomOf="@+id/option2" />
 
     <Button
         android:id="@+id/option4"
-        android:layout_width="184dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="67dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="51dp"
+        android:layout_marginStart="45dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Ok2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/option3" />
 </android.support.constraint.ConstraintLayout>

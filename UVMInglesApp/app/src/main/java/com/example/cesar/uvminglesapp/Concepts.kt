@@ -43,7 +43,7 @@ class Concepts : AppCompatActivity() {
             nextImage(op4)
         }
 
-        OK.setOnClickListener {
+        Ok2.setOnClickListener {
             val cambio = Intent(this,Menu2::class.java)
             cambio.putExtra("subject",subject)
             startActivity(cambio)
@@ -75,7 +75,7 @@ class Concepts : AppCompatActivity() {
                     op3.setBackgroundColor(resources.getColor(R.color.button_material_light))
                     op4.setBackgroundColor(resources.getColor(R.color.button_material_light))
                 } else {
-                    OK.visibility = View.VISIBLE
+                    Ok2.visibility = View.VISIBLE
                     //Toast.makeText(this, "Finished activity", Toast.LENGTH_SHORT).show()
                 }
             },1400)
