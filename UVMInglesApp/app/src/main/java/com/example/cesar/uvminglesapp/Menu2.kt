@@ -31,11 +31,11 @@ class Menu2 : AppCompatActivity() {
         }
         button6.setOnClickListener{
 
-           // var intent1 = Intent(this, Writing::class.java)
-            //intent1.putExtra("subject", subject)
-            //startActivity(intent1)
-           // finish()
-            Toast.makeText(this,"Aun no funciona esta parte", Toast.LENGTH_LONG).show()
+            var intent1 = Intent(this, Reading::class.java)
+            intent1.putExtra("subject", subject)
+            startActivity(intent1)
+            finish()
+            //Toast.makeText(this,"Aun no funciona esta parte", Toast.LENGTH_LONG).show()
 
         }
 

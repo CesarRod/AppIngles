@@ -1,4 +1,4 @@
-package com.example.ruth.proyecto
+package com.example.cesar.uvminglesapp
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle

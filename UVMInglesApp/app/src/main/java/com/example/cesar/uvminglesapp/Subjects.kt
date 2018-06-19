@@ -5,7 +5,7 @@ import java.io.Serializable
 
 class Programming{
     private var mapImages = mapOf(
-            R.mipmap.progra1.toString() to arrayListOf("Program","Lenguajes","Otra","Wea"),
+            R.mipmap.progra1.toString() to arrayListOf("Program","Lenguajes","Programming","Gramming"),
             R.mipmap.progra2.toString() to arrayListOf("Codding","Kotlin","Toast","Roast"),
             R.mipmap.progra3.toString() to arrayListOf("Thinking","Tincking","Though","Throw"),
             R.mipmap.progra4.toString() to arrayListOf("Freimguor","Framework","Dreimbrok","Remgor"),
