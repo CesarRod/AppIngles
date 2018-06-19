@@ -8,9 +8,9 @@ class ProgrammingAudios{
             R.raw.prog1java.toString() to arrayListOf("Jave","Jawi","Jama","Java"),
             R.raw.prog2com.toString() to arrayListOf("Algorithm","Algorit","Argotim","Algorhirthm"),
             R.raw.prog3poo.toString() to arrayListOf("Orned Oject Process","Orientes Object Program","Oriented Object Programming","Orience Object Programming"),
-            R.raw.prog4sw.toString() to arrayListOf("Freimguor","Framework","Dreimbrok","Remgor"),
-            R.raw.prog5javascript.toString() to arrayListOf("Good practices","DevOps","Eigth","Infinity"),
-            R.raw.prog6cpp.toString() to arrayListOf("Comments","Commit","Counturing","Selfi"))
+            R.raw.prog4sw.toString() to arrayListOf("Software","Soware","Somwhere","Sofwar"),
+            R.raw.prog5javascript.toString() to arrayListOf("John Script","JavaScript","TypeScript","Emma Script"),
+            R.raw.prog6cpp.toString() to arrayListOf("C less plus","C#","C plus plus","F"))
 
     private var images:List<String> = listOf(
             R.raw.prog1java.toString(),

@@ -95,7 +95,7 @@ class Concepts : AppCompatActivity() {
         when(subject){
             "programming" -> {setOfImages = Programming().getImages()}
             "networking" -> {setOfImages = Networking().getImages()}
-            "support" -> {setOfImages = Support().getImages()}
+            "technicalSupport" -> {setOfImages = Support().getImages()}
         }
 
         images = setOfImages[0]

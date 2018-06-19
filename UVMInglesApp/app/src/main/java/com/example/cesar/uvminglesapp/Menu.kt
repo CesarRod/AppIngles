@@ -16,7 +16,7 @@ class Menu : AppCompatActivity() {
         setSupportActionBar(toolbar)
 
         val intent = Intent(this,Menu2::class.java)
-        button.setOnClickListener{
+        button3.setOnClickListener{
             intent.putExtra("subject","technicalSupport")
             startActivity(intent)
             finish()
@@ -26,7 +26,7 @@ class Menu : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
-        button3.setOnClickListener{
+        button.setOnClickListener{
             intent.putExtra("subject","networking")
             startActivity(intent)
             finish()
