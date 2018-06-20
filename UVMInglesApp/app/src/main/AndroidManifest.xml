@@ -4,11 +4,11 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:icon="@mipmap/uvmlogo"
+        android:label="UVM English App"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme.NoActionBar">
         <activity
             android:name=".MainActivity"
             android:noHistory="true"
@@ -21,20 +21,23 @@
         </activity>
         <activity
             android:name=".Menu"
-            android:label="@string/title_activity_menu"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Menu2"
-            android:label="@string/title_activity_menu"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Concepts"
             android:label="Concepts"
             android:theme="@style/AppTheme.NoActionBar" />
 
-        <activity android:name=".Listening"></activity>
+        <activity
+            android:name=".Listening"
+            ></activity>
 
-        <activity android:name=".Reading"></activity>
+        <activity
+            android:name=".Reading"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
 
     </application>
 
